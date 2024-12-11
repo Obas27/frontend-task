@@ -1,0 +1,45 @@
+
+html{
+    font-size: 15px;
+}
+h1,h3{
+    color: #2a2a2a;
+}
+.bird{
+    text-align: center;
+}
+header{
+    position: relative;
+    padding: 20px;
+    background: green;
+    border-bottom:4px solid grey;
+
+}
+
+.dove{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:25px;
+    right:1px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.ul{
+    border: 1px ;
+    background: lightseagreen;
+}
+li{
+    list-style: none;
+    border: solid li;
+    flex:2;
+    margin: 30px;
+}
+footer{
+    background: green;
+    border:4px solid grey;
+}
